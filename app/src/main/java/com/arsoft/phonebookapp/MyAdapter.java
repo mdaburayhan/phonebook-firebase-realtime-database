@@ -10,12 +10,17 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.arsoft.phonebookapp.databinding.ItemCardBinding;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.UserViewHolder> {
     private Context context;
     private ArrayList<User> userArrayList;
+
+
+
 
     public MyAdapter(Context context, ArrayList<User> userArrayList) {
         this.context = context;
