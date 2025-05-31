@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "97575712994",
+    "firebase_url": "https://whatsapp-clone-9038e-default-rtdb.firebaseio.com",
+    "project_id": "whatsapp-clone-9038e",
+    "storage_bucket": "whatsapp-clone-9038e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97575712994:android:bdacaf5653e003e389c6bb",
+        "android_client_info": {
+          "package_name": "com.arsoft.firebaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf2LTFXV68nKTReeky5LxIgjBLCMzMUis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97575712994:android:7563da2a6b4ea20189c6bb",
+        "android_client_info": {
+          "package_name": "com.arsoft.phonebookapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf2LTFXV68nKTReeky5LxIgjBLCMzMUis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97575712994:android:54ab96fd69945f6f89c6bb",
+        "android_client_info": {
+          "package_name": "com.arsoftltd.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf2LTFXV68nKTReeky5LxIgjBLCMzMUis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
