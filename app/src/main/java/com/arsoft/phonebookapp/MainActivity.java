@@ -25,7 +25,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ArrayList<User> users;
+    private ArrayList<User> users = new ArrayList<>();
     private RecyclerView recyclerView;
     private MyAdapter userAdapter;
     private ActivityMainBinding binding;
@@ -54,9 +54,6 @@ public class MainActivity extends AppCompatActivity {
         // RecyclerView with databinding
         recyclerView = binding.recyclerView;
 
-        userAdapter = new MyAdapter(this, users);
-
-        recyclerView.setAdapter(userAdapter);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -82,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        userAdapter = new MyAdapter(this, users);
+        recyclerView.setAdapter(userAdapter);
 
     }
 }
